@@ -8,6 +8,35 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <form novalidate>
+        <ul>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <span class="error"></span>
+            </li>
+            <li>
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country" minlength="4">
+                <span class="error"></span>
+            </li>
+            <li>
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" name="zip-code" id="zip-code" minlength="4">
+                <span class="error"></span>
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" minlength="5">
+                <span class="error"></span>
+            </li>
+            <li>
+                <label for="password-confirm">Password Confirmation:</label>
+                <input type="password" name="password-confirm" id="password-confirm">
+                <span class="error"></span>
+            </li>
+            <button type="submit">Submit</button>
+        </ul>
+    </form>
 </body>
 </html>
