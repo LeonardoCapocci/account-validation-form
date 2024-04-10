@@ -88,6 +88,6 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
     alert("Fix your inputs");
   } else {
-    alert("great success");
+    alert("Form Submitted");
   }
 });
